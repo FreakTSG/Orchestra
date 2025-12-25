@@ -1,0 +1,16 @@
+include README.md
+include LICENSE
+include pyproject.toml
+include *.md
+recursive-include orchestra *.py
+recursive-include utils *.py
+recursive-include agents *.py
+recursive-include config *.py
+recursive-include dispatcher *.py
+recursive-include evaluator *.py
+recursive-include multi_agent_coder *.py
+exclude venv
+exclude .venv
+exclude __pycache__
+exclude *.pyc
+exclude .git
